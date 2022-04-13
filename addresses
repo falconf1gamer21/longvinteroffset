@@ -1,0 +1,77 @@
+gworld
+
+
+140759732 48 8B 1D 87 06 FD 03                          mov     rbx, cs:qword_144729DC0
+.text:0000000140759739 48 85 DB                                      test    rbx, rbx
+.text:000000014075973C 74 3B                                         jz      short loc_140759779
+
+
+
+fnamepool gname uname urmomname
+140E73410
+1.
+140E72E8F
+
+140E72E7D 74 09                                         jz      short loc_140E72E88
+.text:0000000140E72E7F 48 8D 05 7A 85 76 03                          lea     rax, stru_1445DB400
+.text:0000000140E72E86 EB 13                                         jmp     short loc_140E72E9B
+
+2.
+140E768D4
+140E768C2 74 09                                         jz      short loc_140E768CD
+.text:0000000140E768C4 4C 8D 05 35 4B 76 03                          lea     r8, stru_1445DB400
+.text:0000000140E768CB EB 16                                         jmp     short loc_140E768E3
+
+3.
+140E769E5
+140E769D3 74 09                                         jz      short loc_140E769DE
+.text:0000000140E769D5 4C 8D 05 24 4A 76 03                          lea     r8, stru_1445DB400
+.text:0000000140E769DC EB 16                                         jmp     short loc_140E76A28
+
+4.
+140E77C62
+
+140E77C50 74 09                                         jz      short loc_140E77C5B
+.text:0000000140E77C52 4C 8D 05 A7 37 76 03                          lea     r8, stru_1445DB400
+.text:0000000140E77C59 EB 16                                         jmp     short loc_140E77C71
+
+
+5.
+140E77D22
+140E77D10 74 09                                         jz      short loc_140E77D1B
+.text:0000000140E77D12 4C 8D 05 E7 36 76 03                          lea     r8, stru_1445DB400
+.text:0000000140E77D19 EB 16                                         jmp     short loc_140E77D31
+
+6.
+140E786AE
+140E7869C 74 09                                         jz      short loc_140E786A7
+.text:0000000140E7869E 4C 8D 05 5B 2D 76 03                          lea     r8, stru_1445DB400
+.text:0000000140E786A5 EB 16                                         jmp     short loc_140E786BD
+
+7. called at start of subroutine
+140E79CF0
+
+8. 
+140E79E81
+140E79E6F 74 09                                         jz      short loc_140E79E7A
+.text:0000000140E79E71 48 8D 15 88 15 76 03                          lea     rdx, stru_1445DB400
+.text:0000000140E79E78 EB 16
+
+9.
+140E79EDF
+140E79ECD 74 09                                         jz      short loc_140E79ED8
+.text:0000000140E79ECF 48 8D 15 2A 15 76 03                          lea     rdx, stru_1445DB400
+.text:0000000140E79ED6 EB 16                                         jmp     short loc_140E79EEE
+
+10.
+140E7A1D8
+140E7A1C6 74 09                                         jz      short loc_140E7A1D1
+.text:0000000140E7A1C8 4C 8D 05 31 12 76 03                          lea     r8, stru_1445DB400
+.text:0000000140E7A1CF EB 16                                         jmp     short loc_140E7A1E7
+
+11.
+140E7A248
+140E7A236 74 09                                         jz      short loc_140E7A241
+.text:0000000140E7A238 48 8D 15 C1 11 76 03                          lea     rdx, stru_1445DB400
+.text:0000000140E7A23F EB 16                                         jmp     short loc_140E7A257
+
